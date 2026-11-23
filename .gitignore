@@ -1,0 +1,25 @@
+# ローカルの環境設定とシークレット
+.env
+.env.*
+!.env.example
+
+# Python / uv / pytest / Ruff
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Node.js / Vite / TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+
+# ローカルで生成したログ
+*.log
+
+# Windows のサムネイルキャッシュ
+Thumbs.db
